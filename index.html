@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipTheZone</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#"><img width="85px" src="images/logo.png" alt="FlipTheZone"></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Help Us</a></li>
+                    <li class="go-premium-cta"><a href="#">Android APP</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Save time compare at once</p>
+                <h1>Compare Now Or Regret Later</h1>
+ 
+            </div>
+
+            <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+  
+   
+   
+
+
+
+
+
+
+    
+<!--FOOTER-->
+
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img width="150px" src="images/logo.png">
+        
+
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="#">Blog</a>
+            |
+            
+            |
+            <a href="contact.html">Contact</a>
+        </p>
+
+        <p class="footer-company-name">© 2021 FlipTheZone</p>
+    </div>
+
+    <div class="footer-center">
+      <!--  <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>309 - Rupa Solitaire,
+                 Bldg. No. A - 1, Sector - 1</span>
+                Mahape, Navi Mumbai - 400710</p>
+        </div>
+        -->
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 8700209857</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="https://mail.google.com/mail/u/0/">flipthezone@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+           FlipTheZone Just Compare Prize of different ecommerce websites</p>
+        
+    </div>
+</footer>
+
+<!--FOOTER-->
+   
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
