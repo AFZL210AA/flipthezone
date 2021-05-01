@@ -1,2 +1,2 @@
 # flipthezone
-compare prices of top ecommerce websites like Amazon,flipkart,banggod &amp; alibaba at once and save money &amp; time!
+Buy gift cards with cryptocurrency easily just select the card and chat with the seller directly!
