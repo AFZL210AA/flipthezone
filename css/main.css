@@ -579,3 +579,17 @@ footer{
 	}
 
 }
+
+.explore{
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  color: blue;
+}
+
+.explore:hover{
+  color: white;
+  background-color: blue;
+
+}
