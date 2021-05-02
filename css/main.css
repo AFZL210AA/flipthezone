@@ -7,6 +7,7 @@ body {
   background: #F2F2F2;
   margin: 0;
   font-family: 'Poppins';
+  
 }
 
 .navbar {
@@ -156,6 +157,7 @@ ul.features-list li:before {
 
 h2 {
   font-size: 2em;
+ 
 }
 
 label {
@@ -284,6 +286,18 @@ nav li a:hover {
     background: var(--primary-color);
     color: white;
   }
+
+  
+
+
+}
+
+@media only screen and (max-width: 1080px) {
+    
+.mobile-crypto{
+  height: 110px;
+}
+
 }
 
 @media only screen and (min-width: 1080px) {
@@ -369,6 +383,10 @@ nav li a:hover {
   .contact-right iframe {
     height: 100%;
   }
+
+    
+
+
 }
 
 @media only screen and (min-width: 1450px) {

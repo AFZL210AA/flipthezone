@@ -683,3 +683,20 @@ footer{
   color: black;
  
 }
+
+.description{
+  color: rgb(77, 72, 72);
+}
+
+
+.all{
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    
+  .mobile-crypto{
+    height: 110px;
+  }
