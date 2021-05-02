@@ -698,5 +698,12 @@ footer{
 @media only screen and (max-width: 1080px) {
     
   .mobile-crypto{
-    height: 110px;
+    height: 80px;
   }
+}
+
+.allcrypto{
+  display: flex;
+  justify-content: center;
+}
+
