@@ -52,3 +52,35 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rdp{
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+    margin-top: 20px;
+}
+
+.rdp:hover{
+    background: blue;
+    color: white;
+}
+
+.specs{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+ul li{
+    font-weight: 600;
+}
