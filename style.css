@@ -26,10 +26,17 @@
 
 .nav{
     margin-top: 20px;
+    z-index: 0;
 }
 
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.side{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
