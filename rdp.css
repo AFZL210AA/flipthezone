@@ -11,3 +11,9 @@
     height: 100vh;
     background: coral;
 }
+
+.top{
+    display: flex;
+    justify-content: center;
+   padding-top: 20px;
+}
